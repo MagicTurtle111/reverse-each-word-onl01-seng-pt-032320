@@ -4,8 +4,7 @@ reversed_sentence = sentence.split
 
 reversed_sentence.collect { |item|
   item.reverse!
-}
-sentence = reversed_sentence.join(" ")
+}.join(" ")
 sentence
 end
 
