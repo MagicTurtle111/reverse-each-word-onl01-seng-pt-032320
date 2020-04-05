@@ -5,7 +5,7 @@ reversed_sentence = sentence.split
 reversed_sentence.collect { |item|
   item.reverse!
 }.join(" ")
-sentence
+
 end
 
 
